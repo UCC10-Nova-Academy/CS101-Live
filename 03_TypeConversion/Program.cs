@@ -11,7 +11,7 @@
 
         int d = a + b + c;
 
-        string e= "Nova Academy Team";
+        string e= "Nova Academy Team - ";
 
         char f = 'A';
 
