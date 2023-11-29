@@ -1,0 +1,15 @@
+C:\UCC10\Projects\CS101-Live\04_Operators\bin\Debug\net6.0\04_Operators.exe
+C:\UCC10\Projects\CS101-Live\04_Operators\bin\Debug\net6.0\04_Operators.deps.json
+C:\UCC10\Projects\CS101-Live\04_Operators\bin\Debug\net6.0\04_Operators.runtimeconfig.json
+C:\UCC10\Projects\CS101-Live\04_Operators\bin\Debug\net6.0\04_Operators.dll
+C:\UCC10\Projects\CS101-Live\04_Operators\bin\Debug\net6.0\04_Operators.pdb
+C:\UCC10\Projects\CS101-Live\04_Operators\obj\Debug\net6.0\04_Operators.GeneratedMSBuildEditorConfig.editorconfig
+C:\UCC10\Projects\CS101-Live\04_Operators\obj\Debug\net6.0\04_Operators.AssemblyInfoInputs.cache
+C:\UCC10\Projects\CS101-Live\04_Operators\obj\Debug\net6.0\04_Operators.AssemblyInfo.cs
+C:\UCC10\Projects\CS101-Live\04_Operators\obj\Debug\net6.0\04_Operators.csproj.CoreCompileInputs.cache
+C:\UCC10\Projects\CS101-Live\04_Operators\obj\Debug\net6.0\04_Operators.sourcelink.json
+C:\UCC10\Projects\CS101-Live\04_Operators\obj\Debug\net6.0\04_Operators.dll
+C:\UCC10\Projects\CS101-Live\04_Operators\obj\Debug\net6.0\refint\04_Operators.dll
+C:\UCC10\Projects\CS101-Live\04_Operators\obj\Debug\net6.0\04_Operators.pdb
+C:\UCC10\Projects\CS101-Live\04_Operators\obj\Debug\net6.0\04_Operators.genruntimeconfig.cache
+C:\UCC10\Projects\CS101-Live\04_Operators\obj\Debug\net6.0\ref\04_Operators.dll
