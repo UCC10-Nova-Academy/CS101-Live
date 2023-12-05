@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\OneDrive\\Repos\\UCC10-Nova\\CS101-Live\\04_Operators\\04_Operators.csproj": {}
+    "C:\\UCC10\\Projects\\CS101-Live\\04_Operators\\04_Operators.csproj": {}
   },
   "projects": {
-    "C:\\OneDrive\\Repos\\UCC10-Nova\\CS101-Live\\04_Operators\\04_Operators.csproj": {
+    "C:\\UCC10\\Projects\\CS101-Live\\04_Operators\\04_Operators.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\OneDrive\\Repos\\UCC10-Nova\\CS101-Live\\04_Operators\\04_Operators.csproj",
+        "projectUniqueName": "C:\\UCC10\\Projects\\CS101-Live\\04_Operators\\04_Operators.csproj",
         "projectName": "04_Operators",
-        "projectPath": "C:\\OneDrive\\Repos\\UCC10-Nova\\CS101-Live\\04_Operators\\04_Operators.csproj",
+        "projectPath": "C:\\UCC10\\Projects\\CS101-Live\\04_Operators\\04_Operators.csproj",
         "packagesPath": "C:\\Users\\umitk\\.nuget\\packages\\",
-        "outputPath": "C:\\OneDrive\\Repos\\UCC10-Nova\\CS101-Live\\04_Operators\\obj\\",
+        "outputPath": "C:\\UCC10\\Projects\\CS101-Live\\04_Operators\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = _04_Operators
-build_property.ProjectDir = C:\OneDrive\Repos\UCC10-Nova\CS101-Live\04_Operators\
+build_property.ProjectDir = C:\UCC10\Projects\CS101-Live\04_Operators\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
