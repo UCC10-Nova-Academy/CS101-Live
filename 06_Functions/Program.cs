@@ -21,7 +21,7 @@
             // concat : stringleri birleitiriyor.
 
 
-            Console.WriteLine("Benim ve kızımın adları : " + string.Concat(ns1_1," - ",ns2," İstanbul'da yasıyoruz.."));
+            Console.WriteLine("Benim ve kızımın adları : " + string.Concat(ns1_1," - ",ns2," İstanbul'da yasıyoruz..Sağlıklıyız...."));
 
 
             Console.ReadKey();
