@@ -46,6 +46,15 @@
 
             Console.WriteLine(adsoyad.Remove(3,5) + "\n\n");
 
+            // Split - çekip alma
+
+            string hobiler = "Outdoor-satranç-basketbol-wingsuit-bungeejumping";
+
+            string[] hobiliste = hobiler.Split('-');
+
+            foreach (string hobi in hobiliste)
+                Console.WriteLine("Hobim : {0}",hobi );
+
             Console.ReadKey();
         }
     }
