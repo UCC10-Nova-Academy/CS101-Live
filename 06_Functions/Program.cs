@@ -10,8 +10,8 @@
             string ns2,ns2_1;
 
             // ToUpper,ToLower
-            ns1 = "ümit karaçivi...";
-            ns1_1=ns1.ToLower();
+            ns1 = "ümit karaçivi";
+            ns1_1=ns1.ToUpper();
             ns2 = "DOĞA BENGİ KARAÇİVİ";
             ns2_1=ns2.ToLower();
 
@@ -21,7 +21,7 @@
             // concat : stringleri birleitiriyor.
 
 
-            Console.WriteLine("Benim ve kızımın adları : " + );
+            Console.WriteLine("Benim ve kızımın adları : " + string.Concat(ns1_1," - ",ns2," İstanbul'da yasıyoruz.."));
 
 
             Console.ReadKey();
