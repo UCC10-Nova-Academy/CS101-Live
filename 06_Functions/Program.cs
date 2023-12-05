@@ -15,13 +15,13 @@
             ns2 = "DOĞA BENGİ KARAÇİVİ";
             ns2_1=ns2.ToLower();
 
-            Console.WriteLine(ns1 + " " +ns1_1 + "\n");
+            Console.WriteLine(ns1 + " " + ns1_1 + "\n");
             Console.WriteLine(ns2 + " " + ns2_1 + "\n");
 
             // concat : stringleri birleitiriyor.
 
 
-            Console.WriteLine("Benim ve kızımın adları : " +);
+            Console.WriteLine("Benim ve kızımın adları : " + );
 
 
             Console.ReadKey();
