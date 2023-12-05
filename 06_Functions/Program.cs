@@ -34,6 +34,18 @@
 
 
             Console.WriteLine(substr + " - " + sonuc + " - " + sonuc1);
+
+            // Insert (baslangic,value)
+            string adsoyad = "Ümit KARAÇİVİ";
+            string lakap = "scrat ";
+
+            Console.WriteLine(adsoyad.Insert(5,lakap)+ "\n\n");
+
+            // Remove (baslangic,value)
+            string adsoyad1 = "Ümit KARAÇİVİ";
+
+            Console.WriteLine(adsoyad.Remove(3,5) + "\n\n");
+
             Console.ReadKey();
         }
     }
