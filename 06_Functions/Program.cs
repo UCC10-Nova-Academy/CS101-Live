@@ -53,7 +53,10 @@
             string[] hobiliste = hobiler.Split('-');
 
             foreach (string hobi in hobiliste)
-                Console.WriteLine("Hobim : {0}",hobi );
+            {
+                Console.WriteLine("Hobim : {0}", hobi);
+            }
+
 
             Console.ReadKey();
         }
