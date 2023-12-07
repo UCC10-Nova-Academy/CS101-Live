@@ -63,6 +63,8 @@
             int[] sayilar2 = { 11, 12, 13, 14, 15, 16, 17, 18, 19, 20 };
 
 
+
+
             // toplamı isteniyor
             int toplam1 = 0;
 
