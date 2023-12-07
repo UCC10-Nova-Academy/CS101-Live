@@ -19,7 +19,13 @@
             string[] dizi1 = { "Bir", "İki", "Üç" }; // daha yaratırken içine veriyi yerleştiriyorum.
             int[] dizi2 = {2,-4,5,6};
 
-            float[] dizi3 = { 2f, 2.5f, 4.1f };
+            float[] dizi3 = { 2f, 2.5f, 4.1f }; // yaratırken ilk değerleri atama
+
+            //Not : yukardaki kullanımı ancak ve ancak dizi daha ilk tanımlanırken yapabilir. Sonrasında bçyle bir atama yapamayız.
+
+            //int[] dizi4;
+
+            //dizi4 = { 1,2,3};
 
             #endregion
 
