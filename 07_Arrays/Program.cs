@@ -39,7 +39,7 @@
 
             for (int index = 0;index <= dizi5.Length-1; index++)
             {
-                Console.WriteLine("Dizinin {0}. elemanı {1} dir",index, dizi5[index] );
+                Console.WriteLine("Dizinin {0}. elemanı {1} dir...",index, dizi5[index] );
             }
 
 
