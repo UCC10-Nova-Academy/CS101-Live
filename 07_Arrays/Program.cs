@@ -59,6 +59,9 @@
             Console.WriteLine("Dizi toplamı {0} ",toplam);
 
 
+            // foreach
+
+
             #endregion
 
             Console.ReadKey();
