@@ -27,6 +27,22 @@
 
             //dizi4 = { 1,2,3};
 
+            // Dinamik dizi yaratımı
+            Console.WriteLine("Lütfen bir değer giriniz :");
+            int boyut = Convert.ToInt32(Console.ReadLine());// yaratılacak olan dizinin boyutu isteniyor aslında
+            int[] dizi5 = new int[boyut]; // dinamik bir dizi yaratımı
+            dizi5[0] = 130;
+            dizi5[1] = 20;
+            dizi5[2] = 40;
+
+            // bu dizinin tüm elemanlarını ekrana bastırınız.
+
+            for (int index = 0;index <= dizi5.Length-1; index++)
+            {
+                Console.WriteLine("Dizinin {0}. elemanı {1} dir",index, dizi5[index] );
+            }
+
+
             #endregion
 
             Console.ReadKey();
