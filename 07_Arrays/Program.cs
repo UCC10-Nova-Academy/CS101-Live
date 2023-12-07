@@ -56,11 +56,21 @@
                 toplam = toplam + sayilar1[index];
             }
 
-            Console.WriteLine("Dizi toplamı {0} ",toplam);
+            Console.WriteLine("Dizi1 toplamı {0} \n\n",toplam);
 
 
             // foreach
+            int[] sayilar2 = { 11, 12, 13, 14, 15, 16, 17, 18, 19, 20 };
 
+            // toplamı isteniyor
+            int toplam1 = 0;
+
+            foreach (int value in sayilar2)
+            {
+                toplam1 += value; // toplam1 = toplam1 + value
+            }
+
+            Console.WriteLine("Dizi2 toplamı {0} ", toplam1);
 
             #endregion
 
