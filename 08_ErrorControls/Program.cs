@@ -17,33 +17,36 @@
             // istenmeyen hata durumunun önüne geçmek için
 
             #region Hata Avcısı )onceden hatayı olabıleceğini hissetmek
-            int c = 200;
-            int d = 0;
+            int c = 0;
+            int d = 100;
+            int sonuc;
 
             try // dene -- olmuosa catch bolumune git
             {
-                Console.WriteLine("{0} / {1} isleminin sonucu : {2}", c, d, c / d);
+                sonuc = c / d;
+                Console.WriteLine("{0} / {1} isleminin sonucu : {2}", c, d, sonuc);
             }
             catch  // olmuosa hata ver patdadanak değil usturuplu
             {// tamamen size kalmış
                 if (c != 0 && d==0)
                 {
                     d = (c / 10); // d ye yeni bir deüer ata
-
-                    Console.WriteLine("D nin değeri hata oluşturduğu için güncellenmiş ve {0} değeri atanmıştır.\n Şimdi {1} / {2} işleminin sonucu {3} tür.",d,c,d,(c/d));
+                    sonuc = c / d;
+                    Console.WriteLine("D nin değeri hata oluşturduğu için güncellenmiş ve {0} değeri atanmıştır.\n Şimdi {1} / {2} işleminin sonucu {3} tür.",d,c,d,sonuc);
                 }
                 else if (c == 0 && d !=0)
                 {
                     c = (d * 10);
 
-                    Console.WriteLine("C nin değeri 0 olduğu için güncellenmiş ve {0} değeri atanmıştır.\n Şimdi {1} / {2} işleminin sonucu {3} tür.", c, c, d, (c / d));
+                    Console.WriteLine("C nin değeri 0 olduğu için güncellenmiş ve {0} değeri atanmıştır.\n Şimdi {1} / {2} işleminin sonucu {3} tür.", c, c, d, sonuc);
                 }
                 else if (c == 0 && d == 0)
                 {
                     c = 50;
                     d = 10;
+                    sonuc= c / d;
 
-                    Console.WriteLine("Şimdi {0} / {1} işleminin sonucu {2} tür.", c, d, (c / d));
+                    Console.WriteLine("Şimdi {0} / {1} işleminin sonucu {2} tür.", c, d, sonuc);
                 }
             }
 
