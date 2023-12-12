@@ -58,19 +58,49 @@
             #endregion
 
             #region Hata Metotları
-            byte deger;
+            //byte deger;
+
+            //try
+            //{
+            //    Console.WriteLine("Lütfen byte türünde bir değer giriniz : ");
+
+            //    deger=Convert.ToByte(Console.ReadLine());
+            //}
+            //catch (Exception e)
+            //{
+
+            //    Console.WriteLine("Hata mesajı : {0}\nKaynağı : {1}\nStack Trace : {2}\nTargetSite : {3}",e.Message,e.Source,e.StackTrace,e.TargetSite);
+            //}
+
+            #endregion
+
+            #region İlginç
+            int bolunecek, bolen;
 
             try
             {
-                Console.WriteLine("Lütfen byte türünde bir değer giriniz : ");
+                Console.WriteLine("Bolunecek degeri girin : ");
+                bolunecek = Convert.ToInt32(Console.ReadLine());
 
-                deger=Convert.ToByte(Console.ReadLine());
+                Console.WriteLine("Bolen degeri girin : ");
+                bolen = Convert.ToInt32(Console.ReadLine());
+
+                double sonuc=bolunecek/bolen;
+
+                Console.WriteLine("{0} / {1} = {2}",bolunecek,bolen,sonuc  );
+
             }
-            catch (Exception e)
+            catch (DivideByZeroException e)
             {
-
-                Console.WriteLine("Hata mesajı : {0}\nKaynağı : {1}\nStack Trace : {2}\nTargetSite : {3}",e.Message,e.Source,e.StackTrace,e.TargetSite);
+                Console.WriteLine("Sıfıra bölüm hatası : {0}",e.Message);
+                
             }
+            catch (FormatException e)
+            {
+                Console.WriteLine("Veri formatı hatası : {0}", e.Message);
+                
+            }
+
 
             #endregion
 
