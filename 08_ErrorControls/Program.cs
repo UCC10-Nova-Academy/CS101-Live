@@ -17,44 +17,62 @@
             // istenmeyen hata durumunun önüne geçmek için
 
             #region Hata Avcısı )onceden hatayı olabıleceğini hissetmek
-            int c = 0;
-            int d = 100;
-            int sonuc;
+            //int c = 0;
+            //int d = 100;
+            //int sonuc;
 
-            try // dene -- olmuosa catch bolumune git
-            {
-                sonuc = c / d;
-                Console.WriteLine("{0} / {1} isleminin sonucu : {2}", c, d, sonuc);
-            }
-            catch  // olmuosa hata ver patdadanak değil usturuplu
-            {// tamamen size kalmış
-                if (c != 0 && d==0)
-                {
-                    d = (c / 10); // d ye yeni bir deüer ata
-                    sonuc = c / d;
-                    Console.WriteLine("D nin değeri hata oluşturduğu için güncellenmiş ve {0} değeri atanmıştır.\n Şimdi {1} / {2} işleminin sonucu {3} tür.",d,c,d,sonuc);
-                }
-                else if (c == 0 && d !=0)
-                {
-                    c = (d * 10);
+            //// ???????
+            //try // dene -- olmuosa catch bolumune git
+            //{
+            //    sonuc = c / d;
 
-                    Console.WriteLine("C nin değeri 0 olduğu için güncellenmiş ve {0} değeri atanmıştır.\n Şimdi {1} / {2} işleminin sonucu {3} tür.", c, c, d, sonuc);
-                }
-                else if (c == 0 && d == 0)
-                {
-                    c = 50;
-                    d = 10;
-                    sonuc= c / d;
+            //    Console.WriteLine("{0} / {1} isleminin sonucu : {2}", c, d, sonuc);
+            //}
+            //catch  // olmuosa hata ver patdadanak değil usturuplu
+            //{// tamamen size kalmış
+            //    if (c != 0 && d==0)
+            //    {
+            //        d = (c / 10); // d ye yeni bir deüer ata
+            //        sonuc = c / d;
+            //        Console.WriteLine("D nin değeri hata oluşturduğu için güncellenmiş ve {0} değeri atanmıştır.\n Şimdi {1} / {2} işleminin sonucu {3} tür.",d,c,d,sonuc);
+            //    }
+            //    else if (c == 0 && d !=0)
+            //    {
+            //        c = (d * 10);
+            //        sonuc = c / d;
 
-                    Console.WriteLine("Şimdi {0} / {1} işleminin sonucu {2} tür.", c, d, sonuc);
-                }
-            }
+            //        Console.WriteLine("C nin değeri 0 olduğu için güncellenmiş ve {0} değeri atanmıştır.\n Şimdi {1} / {2} işleminin sonucu {3} tür.", c, c, d, sonuc);
+            //    }
+            //    else if (c == 0 && d == 0)
+            //    {
+            //        c = 50;
+            //        d = 10;
+            //        sonuc= c / d;
+
+            //        Console.WriteLine("Şimdi {0} / {1} işleminin sonucu {2} tür.", c, d, sonuc);
+            //    }
+            //}
 
 
 
             #endregion
 
+            #region Hata Metotları
+            byte deger;
 
+            try
+            {
+                Console.WriteLine("Lütfen byte türünde bir değer giriniz : ");
+
+                deger=Convert.ToByte(Console.ReadLine());
+            }
+            catch (Exception e)
+            {
+
+                Console.WriteLine("Hata mesajı : {0}\nKaynağı : {1}\nStack Trace : {2}\nTargetSite : {3}",e.Message,e.Source,e.StackTrace,e.TargetSite);
+            }
+
+            #endregion
 
 
             Console.ReadKey();
