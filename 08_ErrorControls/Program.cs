@@ -100,7 +100,20 @@
                 Console.WriteLine("Veri formatı hatası : {0}", e.Message);
                 
             }
+            catch (OverflowException e)
+            {
+                Console.WriteLine("Sınır aşıldı hatası : {0}", e.Message);
 
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Beklenmedik hata : {0}", e.Message);
+
+            }
+            finally 
+            {
+                Console.WriteLine("Hersey berkemal..."  ); ; 
+            }
 
             #endregion
 
