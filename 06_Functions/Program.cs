@@ -44,11 +44,11 @@
             // Remove (baslangic,value)
             string adsoyad1 = "Ümit KARAÇİVİ";
 
-            Console.WriteLine(adsoyad.Remove(3,5) + "\n\n");
+            Console.WriteLine(adsoyad1.Remove(3,5) + "\n\n");
 
             // Split - çekip alma
 
-            string hobiler = "Outdoor-satranç-basketbol-wingsuit-bungeejumping";
+            string hobiler = "Outdoor-satranç-basketbol-wingsuit-bungeejumping-düz duvar";
 
             string[] hobiliste = hobiler.Split('-');
 
