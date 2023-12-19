@@ -28,9 +28,13 @@
 
             //int sonuc = HesaplaPrmsiz(); // sonuc=alan
 
-            Console.WriteLine("Alan= {0}", HesaplaPrmsiz());
+            //Console.WriteLine("Alan= {0}", HesaplaPrmsiz());
+            Console.WriteLine("Geri dönen bilgi = {0}", HesaplaPrmsiz2());
+
 
             #endregion
+
+
 
 
 
@@ -72,5 +76,18 @@
 
             return alan; // geri değeri postalayan keyword
         }
+
+        static string HesaplaPrmsiz2()
+        {
+            Console.WriteLine("Ad :");
+            string ad = Console.ReadLine();
+
+            Console.WriteLine("Soyad :");
+            string soyad = Console.ReadLine();
+
+            return string.Concat(ad," ",soyad);
+        }
+
+
     }
 }
