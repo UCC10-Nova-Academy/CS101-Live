@@ -23,35 +23,72 @@
 
             // class dan nesne yaratma syntax bellekte yer ayırma
 
-            clsPersonel umit = new clsPersonel(); // bellekte umit nesnesi yaratıldı
-            clsPersonel arda1 = new clsPersonel();
-            clsPersonel eyup = new clsPersonel();
-            clsPersonel arda2 = new clsPersonel();
-            clsPersonel alihan = new clsPersonel();
-            clsPersonel emircan = new clsPersonel();
+            //clsPersonel umit = new clsPersonel(); // bellekte umit nesnesi yaratıldı
+            //clsPersonel arda1 = new clsPersonel();
+            //clsPersonel eyup = new clsPersonel();
+            //clsPersonel arda2 = new clsPersonel();
+            //clsPersonel alihan = new clsPersonel();
+            //clsPersonel emircan = new clsPersonel();
 
-            // bilgileri oluşturma
-            int maasilk = 9000;
-            int maasson = 20000;
+            //// bilgileri oluşturma
+            //int maasilk = 9000;
+            //int maasson = 20000;
 
-            // nesnenin metotlarını kullanma
-            umit.setPersonelBilgileri("Ümit","KARAÇİVİ",new Random().Next(maasilk, maasson));
-            arda1.setPersonelBilgileri("Arda","ÖNDER",new Random().Next(maasilk, maasson));
-            eyup.setPersonelBilgileri("Eyüp","SULTAN",new Random().Next(maasilk, maasson));
-            arda2.setPersonelBilgileri("Arda","YILDIZ",new Random().Next(maasilk, maasson));
-            alihan.setPersonelBilgileri("Alihan","BAHRATOV",new Random().Next(maasilk, maasson));
-            emircan.setPersonelBilgileri("Emircan","KARAKUŞ",new Random().Next(maasilk, maasson));
+            //// nesnenin metotlarını kullanma
+            //umit.setPersonelBilgileri("Ümit","KARAÇİVİ",new Random().Next(maasilk, maasson));
+            //arda1.setPersonelBilgileri("Arda","ÖNDER",new Random().Next(maasilk, maasson));
+            //eyup.setPersonelBilgileri("Eyüp","SULTAN",new Random().Next(maasilk, maasson));
+            //arda2.setPersonelBilgileri("Arda","YILDIZ",new Random().Next(maasilk, maasson));
+            //alihan.setPersonelBilgileri("Alihan","BAHRATOV",new Random().Next(maasilk, maasson));
+            //emircan.setPersonelBilgileri("Emircan","KARAKUŞ",new Random().Next(maasilk, maasson));
 
-            Console.WriteLine(umit.getPersonelBilgileri());
-            Console.WriteLine(arda1.getPersonelBilgileri());
-            Console.WriteLine(eyup.getPersonelBilgileri());
-            Console.WriteLine(arda2.getPersonelBilgileri());
-            Console.WriteLine(alihan.getPersonelBilgileri());
-            Console.WriteLine(emircan.getPersonelBilgileri());
+            //Console.WriteLine(umit.getPersonelBilgileri());
+            //Console.WriteLine(arda1.getPersonelBilgileri());
+            //Console.WriteLine(eyup.getPersonelBilgileri());
+            //Console.WriteLine(arda2.getPersonelBilgileri());
+            //Console.WriteLine(alihan.getPersonelBilgileri());
+            //Console.WriteLine(emircan.getPersonelBilgileri());
+
+            #endregion
+
+            #region Ogrenci
+
+            clsOgrenci ogr1 = new clsOgrenci();
+            clsOgrenci ogr2 = new clsOgrenci();
+            clsOgrenci ogr3 = new clsOgrenci();
+            clsOgrenci ogr4 = new clsOgrenci();
+
+            ogr1.setOgrData("Ogr1", "SOgr1");
+            ogr2.setOgrData("Ogr2", "SOgr2");
+            ogr3.setOgrData("Ogr3", "SOgr3");
+            ogr4.setOgrData("Ogr4", "SOgr4");
+
+            ogr1.getOgrData();
+            ogr2.getOgrData();
+            ogr3.getOgrData();
+            ogr4.getOgrData();
 
             #endregion
 
             Console.ReadKey();
+        }
+
+        class clsOgrenci
+        {
+            public string OgrAd;
+            public string OgrSoyad;
+
+
+            public void setOgrData(string pOgrAd,string pOgrSoyad)
+            {
+                OgrAd = pOgrAd;
+                OgrSoyad = pOgrSoyad;
+            }
+
+            public void getOgrData()
+            {
+                Console.WriteLine($"\n** Ogrenci Oluşturuldu **\n\nİsmi : {OgrAd}\nSoyadı : {OgrSoyad}\n");
+            }
         }
     }
 }
