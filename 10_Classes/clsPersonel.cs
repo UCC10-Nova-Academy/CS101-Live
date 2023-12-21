@@ -22,7 +22,7 @@ namespace _10_Classes
         public int Maas;
         public int IzinGunu;
 
-        // 1.
+        // 1.setter
         public void setPersonelBilgileri(string pAd,string pSoyad,int pMaas) // parametrik
         {
             // Kural 
@@ -70,6 +70,17 @@ namespace _10_Classes
 
         }
 
+        // 2. getter
+        public string getPersonelBilgileri()
+        {
+            if (Unvan != null)
+            
+                return $"\n** Personel Oluşturuldu **\n\nPersonel İsmi : {Ad}\nPersonel Soyadı : {Soyad}\nPersonel Maası : {Maas} PNG Kina\nPersonel Unvan : {Unvan}\nPersonel İzin Gunu : {IzinGunu} Gün";
+            else
+                return $"\n** Personel Oluşturulmamış **\n\n";
+
+
+        }
 
 
 
