@@ -23,10 +23,10 @@ namespace _10_Classes
         public int IzinGunu;
 
         // 1.
-        void setPersonelBilgileri(string pAd,string pSoyad,int pMaas) // parametrik
+        public void setPersonelBilgileri(string pAd,string pSoyad,int pMaas) // parametrik
         {
             // Kural 
-            // eğer gelen maas bilgisi 10000 PNG Kina dan büyük ve esitse izin gunu 14 gun olsun
+            // eğer gelen maas bilgisi 10000 PNG Kina dan büyük ve esitse izin gunu 14   gun olsun
             // 10000 - 14000 dahil ise unvan kıdemli pers izin gunu 20
             // 14001 - 15500 dahil Kıdemli+ pers izin gunu 24 gun
             // 15501 butukse unvan uzman pers. ig 30 gün
@@ -41,9 +41,33 @@ namespace _10_Classes
                 if(pMaas >= 10000)
                 {
                     if(pMaas >=10000 && pMaas <= 14000)
+                    {
+                        Unvan = "Kıdemli Personel";
+                        IzinGunu = 20;
+                    }
+                    else if (pMaas >=14001 && pMaas <= 15500)
+                        {
+                        Unvan = "Kıdemli+ Personel";
+                        IzinGunu = 24;
+                    }
+                    else if (pMaas > 15500)
+                    {
+                        Unvan = "Uzman Personel";
+                        IzinGunu = 30;
+                    }
+                    else
+                    {
+                        Unvan = "Junior Personel";
+                    }
 
                 }
             }
+            else
+            {
+                Console.Clear();
+                Console.WriteLine("\n** Personel Olusturulamadı **");
+            } 
+
         }
 
 

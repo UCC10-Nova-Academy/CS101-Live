@@ -19,6 +19,33 @@
             // bir personel kayıt sistemi oluşturulacak
             // yani class tanımlamamı ayrı bir dosyada (cs) yaratacağım.
 
+            // şimdi yaratmıs oldumuz class dan nesne olusturma zmanı..yani kullanma zamanı
+
+            // class dan nesne yaratma syntax bellekte yer ayırma
+
+            clsPersonel umit = new clsPersonel(); // bellekte umit nesnesi yaratıldı
+            clsPersonel arda1 = new clsPersonel();
+            clsPersonel eyup = new clsPersonel();
+            clsPersonel arda2 = new clsPersonel();
+            clsPersonel alihan = new clsPersonel();
+            clsPersonel emircan = new clsPersonel();
+
+            // bilgileri oluşturma
+            int maasilk = 9000;
+            int maasson = 20000;
+
+            // nesnenin metotlarını kullanma
+            umit.setPersonelBilgileri("Ümit","KARAÇİVİ",new Random().Next(maasilk, maasson));
+
+
+
+
+
+
+
+
+
+
 
 
 
