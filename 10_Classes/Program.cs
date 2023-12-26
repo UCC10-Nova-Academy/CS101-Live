@@ -70,6 +70,12 @@
 
             #endregion
 
+            #region SınıfGeçme
+
+
+
+            #endregion
+
             Console.ReadKey();
         }
 
@@ -90,5 +96,25 @@
                 Console.WriteLine($"\n** Ogrenci Oluşturuldu **\n\nİsmi : {OgrAd}\nSoyadı : {OgrSoyad}\n");
             }
         }
+
+        // Çalışma(26.12.23)
+        // 1.Bir ogrenci sınıfı yaratalım - (inner)
+        // içindeki properties lar
+        // Ad , Soyadı,Sınıf,Ders,1.sınav Notu,2.sınav notu 
+        // Bunları hard coded olarak verilerini yaratalım
+        // 2. Hesap/Kitap : Ders geçme notu 60 (1.sınavın %40 ı,2.sınavın %60 ı etkili)
+        // Hesaplayacak ve ekrana Öğrenci Adı,Soyadı,Ders adı,Not,Geçti/Kaldı olarak yazan metdu yazınız
+
+        class clsOgrenci_New
+        {
+
+        }
+
+        void GecmeNotHesapla()
+        {
+
+        }
+
+
     }
 }
