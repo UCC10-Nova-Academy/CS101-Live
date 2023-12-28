@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _11_AccessModifiers
 {
-    class clsProtected
+    internal class clsProtected
     {
         protected string Name = "ÜK";
 

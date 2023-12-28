@@ -1,6 +1,6 @@
 ﻿using _11_AccessModifiers;
 
-class Program : clsProtected // Kalıtım : Inheritance
+internal class Program 
 {
     // Access Modifiers : Erişim Belirleyiciler
     // Public - heryerden erişim
@@ -9,7 +9,7 @@ class Program : clsProtected // Kalıtım : Inheritance
     // Internal - Tanımlandığı assembly içerisinden erişim
     // protected Internal - Tanımlandığı program içersinden veya türetilen sınıflardan erişilebilir.
 
-    static void Main(string[] args)
+    private static void Main(string[] args)
     {
         // bir dış class a erişerek ilgili bazı bilgileri güncelle vs vs
         // Bir clsTutorials isimli bir classımız olsun ama ayrı dosya içinde
@@ -26,15 +26,21 @@ class Program : clsProtected // Kalıtım : Inheritance
 
         #region Protected
 
-        clsProtected clsProtected = new clsProtected();
+        //clsBase clsBase = new clsBase();
+        //clsBase.ProtectedMethod();
 
-        // Acaba protected tarafındaki değisgene ulasabilecemmi
-        Console.WriteLine("Merhaba " + clsProtected);
 
-        clsProtected.
+
+        clsDerived clsDerived = new clsDerived();
+
+        clsDerived.AccessProtectedMethod();
+    
 
         #endregion
 
-        Console.ReadKey();
+
     }
+
+
 }
+
