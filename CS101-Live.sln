@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09_Methods", "09_Methods\09
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10_Classes", "10_Classes\10_Classes.csproj", "{57C3D171-9818-4B94-B4A4-A50CACB6864A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_AccessModifiers", "11_AccessModifiers\11_AccessModifiers.csproj", "{AB18E511-FCB8-4EC5-BAE0-684D7BECCD8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11_AccessModifiers", "11_AccessModifiers\11_AccessModifiers.csproj", "{AB18E511-FCB8-4EC5-BAE0-684D7BECCD8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_Inheritance", "12_Inheritance\12_Inheritance.csproj", "{0B4CE728-2375-4625-9D86-018942A4215E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{AB18E511-FCB8-4EC5-BAE0-684D7BECCD8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB18E511-FCB8-4EC5-BAE0-684D7BECCD8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB18E511-FCB8-4EC5-BAE0-684D7BECCD8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B4CE728-2375-4625-9D86-018942A4215E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B4CE728-2375-4625-9D86-018942A4215E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B4CE728-2375-4625-9D86-018942A4215E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B4CE728-2375-4625-9D86-018942A4215E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
