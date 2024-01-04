@@ -38,6 +38,15 @@
 
         #endregion
 
+        #region Another sample
+        //icinde Ad,soyad,cinsiyet,yas gibi özelliklerin bulunduğu Human isimli bir super class yaratınız.
+        // ardından yıne bır sırket calısanı orneğı gibi içinde çalıstığı bolum ve maas bilgilerinin olduğu Employee isimli bir alt sınıf olusturunuz.
+        // manuel olarak ilgili propertylere değerler atayıp yine bunları ekranda gösterecek sekilde sınıfları yaratınız ve kullanınız.
+        // eğer manuel yerine ekrandan bilgi alacak skilde yaparsanız dadından yenmez.
+
+
+        #endregion
+
         Console.ReadKey();
     }
 
