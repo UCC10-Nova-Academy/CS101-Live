@@ -11,7 +11,6 @@
             // baska bir namespace içinde/yani bulunulan ns nin dışında)
             // herhangi bir class içinde de yaratılabilir.
 
-
             #endregion
 
             #region Personel 
