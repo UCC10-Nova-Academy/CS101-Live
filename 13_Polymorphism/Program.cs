@@ -11,19 +11,19 @@ internal class Program
 
     private static void Main(string[] args)
     {
-        Animal animal = new Animal(); // nesne yaratıldı.
+        Animal animal1 = new Animal(); // nesne yaratıldı.
 
-        animal.name = "Tiger";
-        animal.info = "Kaplan";
-        animal.sound = "Roarrr";
+        animal1.name = "Tiger";
+        animal1.info = "Kaplan";
+        animal1.sound = "Roarrr";
 
-        Console.WriteLine(animal.name);
-        Console.WriteLine(animal.sound);
-        Console.WriteLine(animal.info+"\n\n");
+        Console.WriteLine(animal1.name);
+        Console.WriteLine(animal1.sound);
+        Console.WriteLine(animal1.info+"\n\n");
 
         Animal animal2 = new Animal();
 
-        animal.name = "Lion";
+        animal2.name = "Lion";
         animal2.info = "Aslan";
         animal2.sound = "Woof";
 
