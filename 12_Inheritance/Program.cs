@@ -17,7 +17,7 @@
         // 2.MultiLevel
         // 3.Hierarchical
         // 4.Multiple (Interface yöntemiyle)
-        // 5.Hybrid(Interface yönt.)
+
 
         #region Sample1
         // bir Person isimli bir üst sınıfımız olsun.Ve bundan 3 adet Employee,Student,Customer alt sınıf olusturalım
@@ -50,6 +50,7 @@
         Console.ReadKey();
     }
 
+    #region 1.Single Inheritance
     // Super Class
     class Person
     {
@@ -72,4 +73,19 @@
 
         
     }
+    #endregion
+
+    #region 2.Multilevel Inheritance
+
+    #endregion
+
+    #region 3.Hierarchical Inheritance
+
+    #endregion
+
+    #region 4.Multiple Inheritance
+
+    #endregion
+
+
 }
