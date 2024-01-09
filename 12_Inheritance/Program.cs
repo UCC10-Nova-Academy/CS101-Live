@@ -55,6 +55,12 @@ internal class Program
         penguin.Eat();
         penguin.Fly();
         penguin.Swim();
+
+        // Multiple inheritance
+        MyClass myClass = new MyClass();
+        myClass.Method1();
+        myClass.Method2();
+
         #endregion
 
         #region Another sample
@@ -176,6 +182,32 @@ internal class Program
     #endregion
 
     #region 4.Multiple Inheritance
+    interface I1
+    {
+        void Method1(); // içine herhangş bir sety yazılmayan metot tanımı
+    }
+
+    interface I2
+    {
+        void Method2();
+    }
+
+    // classlar baska bir class dan miras alabildikleri gibi, aynı zamanda bir interface yapısından da kalıtım yapabilirler...
+    class MyClass : I1, I2
+    {
+        public void Method1()
+        {
+            Console.WriteLine("Method 1 çağrıldı....");
+        }
+
+        public void Method2()
+        {
+            Console.WriteLine("Method 2 çağrıldı....");
+        }
+    }
+
+
+
 
     #endregion
 
