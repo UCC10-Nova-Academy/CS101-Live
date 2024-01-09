@@ -40,6 +40,11 @@ internal class Program
         dog.Eat(); // super clss içindeki metodu kullanabiliyorum
         dog.HavHav(); // kendi içindeki metodu kullanabiiyorıum.
 
+        // Multiple
+        Horse horse = new Horse();
+        horse.Eat(); // Animal classından geldi
+        horse.Gallop(); // kendi üzerinde
+        horse.Run(); // memeli sınıfından geldi.
 
 
         #endregion
@@ -71,30 +76,6 @@ internal class Program
 
     }
 
-    class Animal
-    {
-        public void Eat()
-        {
-            Console.WriteLine("Hayvanlar yerler....");
-        }
-
-    }
-
-    class Mammal : Animal
-    {
-        public void Run()
-        {
-            Console.WriteLine("Memeli hayvanlar koşarlar....");
-        }
-    }
-
-    class Horse : Mammal
-    {
-        public void Gallop()
-        {
-            Console.WriteLine("Atlar tırıs tırıs giderler..");
-        }
-    }
 
     // Sub Class
     class Employee : Person // Kendini Person sıfından kalıttı/miras aldım
@@ -128,9 +109,31 @@ internal class Program
 
     #region 2.Multilevel Inheritance
 
-    Horse horse = new Horse();
+    class Animal
+    {
+        public void Eat()
+        {
+            Console.WriteLine("Hayvanlar yerler....");
+        }
 
-    Horse. 
+    }
+
+    class Mammal : Animal
+    {
+        public void Run()
+        {
+            Console.WriteLine("Memeli hayvanlar koşarlar....");
+        }
+    }
+
+    class Horse : Mammal
+    {
+        public void Gallop()
+        {
+            Console.WriteLine("Atlar tırıs tırıs giderler..");
+        }
+    }
+
 
 
 
