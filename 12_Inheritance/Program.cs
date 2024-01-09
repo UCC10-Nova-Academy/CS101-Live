@@ -46,7 +46,15 @@ internal class Program
         horse.Gallop(); // kendi üzerinde
         horse.Run(); // memeli sınıfından geldi.
 
+        Eagle eagle = new Eagle();
+        Penguin penguin = new Penguin();
 
+        eagle.Eat();
+        eagle.Hunt();
+
+        penguin.Eat();
+        penguin.Fly();
+        penguin.Swim();
         #endregion
 
         #region Another sample
@@ -91,7 +99,7 @@ internal class Program
     {
         public void HavHav()
         {
-            Console.WriteLine("Köpekler havlar....");
+            Console.WriteLine("Köpekler havlar....\n\n");
         }
     }
 
@@ -99,7 +107,7 @@ internal class Program
     {
         public void MiyavMiyav()
         {
-            Console.WriteLine("Kediler de doyndum emeeen derler");
+            Console.WriteLine("Kediler de doyndum emeeen derler..\n\n");
         }
     }
 
@@ -113,7 +121,7 @@ internal class Program
     {
         public void Eat()
         {
-            Console.WriteLine("Hayvanlar yerler....");
+            Console.WriteLine("Hayvanlar yerler....\n\n");
         }
 
     }
@@ -122,7 +130,7 @@ internal class Program
     {
         public void Run()
         {
-            Console.WriteLine("Memeli hayvanlar koşarlar....");
+            Console.WriteLine("Memeli hayvanlar koşarlar....\n\n");
         }
     }
 
@@ -130,17 +138,40 @@ internal class Program
     {
         public void Gallop()
         {
-            Console.WriteLine("Atlar tırıs tırıs giderler..");
+            Console.WriteLine("Atlar tırıs tırıs giderler..\n\n");
         }
     }
-
-
-
 
 
     #endregion
 
     #region 3.Hierarchical Inheritance
+
+    class Bird : Animal
+    {
+        public void Fly()
+        {
+            Console.WriteLine("Kuşlar uçarlar....\n\n");
+        }
+    }
+
+    class Eagle : Bird
+    {
+        public void Hunt()
+        {
+            Console.WriteLine("Kartallar yüksek uçar..Avlanır..\n\n");
+        }
+    }
+
+    class Penguin: Bird
+    {
+        public void Swim()
+        {
+            Console.WriteLine("Penguenler yüzebilir...\n\n");
+        }
+    }
+
+
 
     #endregion
 
