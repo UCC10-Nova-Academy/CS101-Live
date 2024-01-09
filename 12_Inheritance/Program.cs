@@ -1,4 +1,6 @@
-﻿internal class Program
+﻿using System.Threading.Channels;
+
+internal class Program
 {
     // Inheritance - Kalıtım/Miras
 
@@ -33,7 +35,7 @@
 
         //Console.WriteLine($"Personel Bilgisi : \n\nPersonel No : {employee.Id}\nPersonel Ad Soyad : {FullName}\nÇalıştığı şirket : {employee.CompanyName}");
 
-        Dog dog = new Dog();
+        Dog dog = new Dog(); // yaaratılırken animal çzelliklerini de üzerine kopyaladı
         
         dog.Eat(); // super clss içindeki metodu kullanabiliyorum
         dog.HavHav(); // kendi içindeki metodu kullanabiiyorıum.
@@ -78,6 +80,22 @@
 
     }
 
+    class Mammal : Animal
+    {
+        public void Run()
+        {
+            Console.WriteLine("Memeli hayvanlar koşarlar....");
+        }
+    }
+
+    class Horse : Mammal
+    {
+        public void Gallop()
+        {
+            Console.WriteLine("Atlar tırıs tırıs giderler..");
+        }
+    }
+
     // Sub Class
     class Employee : Person // Kendini Person sıfından kalıttı/miras aldım
     {
@@ -110,6 +128,9 @@
 
     #region 2.Multilevel Inheritance
 
+    Horse horse = new Horse();
+
+    Horse. 
 
 
 
