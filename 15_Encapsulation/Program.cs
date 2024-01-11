@@ -11,7 +11,9 @@
     // Ornek..
     // dikdortgen alanı hesaplanack. ama kapsulleme yontemı kullanılarak
 
-    // Ornek 2: Bir ulke ısımlı sınıf yaratınız.Elemanları ulkenin adı,baskenti,para birimi,kdan atmasyon nufusu olsun.bu sınıftaki bir metot Yazdır ısımlı mesela yazdırın...
+    // Ornek 2: Bir ulke ısımlı sınıf yaratınız.Elemanları ulkenin adı,baskenti,para birimi,kdan atmasyon nufusu olsun.bu sınıftaki bir metot Yazdır ısımlı mesela yazdırın...)Odev
+
+    // Ornek 3: Machine isimlı bır sınıf yaratın. Bu sınıfın Temp adlı bir ozelliği olsun.ekrandan gırılen machine adı ve Temp değerine gore Sınıfımız Temp değerının 0 dan kucuk ve 0 dan buyuk olmasına gore bir hata mesajı versın...Şu makina cok ısınıyor veya makına durdu gıbı
 
     private static void Main(string[] args)
     {
