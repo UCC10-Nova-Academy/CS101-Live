@@ -11,28 +11,44 @@ internal class Program
 
     private static void Main(string[] args)
     {
-        Animal animal1 = new Animal(); // nesne yaratıldı.
+        //Animal animal1 = new Animal(); // nesne yaratıldı.
 
-        animal1.name = "Tiger";
-        animal1.info = "Kaplan";
-        animal1.sound = "Roarrr";
+        //animal1.name = "Tiger";
+        //animal1.info = "Kaplan";
+        //animal1.sound = "Roarrr";
 
-        Console.WriteLine(animal1.name);
-        Console.WriteLine(animal1.sound);
-        Console.WriteLine(animal1.info+"\n\n");
+        //Console.WriteLine(animal1.name);
+        //Console.WriteLine(animal1.sound);
+        //Console.WriteLine(animal1.info+"\n\n");
 
-        Animal animal2 = new Animal();
+        //Animal animal2 = new Animal();
 
-        animal2.name = "Lion";
-        animal2.info = "Aslan";
-        animal2.sound = "Woof";
+        //animal2.name = "Lion";
+        //animal2.info = "Aslan";
+        //animal2.sound = "Woof";
 
-        //Console.WriteLine(animal.name);
-        Console.WriteLine(animal2.name);
-        Console.WriteLine(animal2.sound);
-        Console.WriteLine(animal2.info);
+        ////Console.WriteLine(animal.name);
+        //Console.WriteLine(animal2.name);
+        //Console.WriteLine(animal2.sound);
+        //Console.WriteLine(animal2.info);
 
+        // Polymorp
+        Animal animal3 = new Animal("Eagle");
 
+        Console.WriteLine(animal3.name);
+        Console.WriteLine(animal3.sound);
+        Console.WriteLine(animal3.info + "\n\n");
+
+        Animal animal4 = new Animal("Penguin", "vırık vırık");
+
+        Console.WriteLine(animal4.name);
+        Console.WriteLine(animal4.sound);
+        Console.WriteLine(animal4.info + "\n\n");
+
+        Animal animal5 = new Animal("Cat", "miyav miyav","bu bir kedidir");
+        Console.WriteLine(animal5.name);
+        Console.WriteLine(animal5.sound);
+        Console.WriteLine(animal5.info + "\n\n");
 
         Console.ReadKey();
     }
