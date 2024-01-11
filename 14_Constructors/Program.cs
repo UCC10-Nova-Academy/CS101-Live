@@ -78,7 +78,7 @@
 
         public Araba(string motor,int renk)
         {
-            this._renk1 = renk;
+            this._renk = renk;
             this._motor = motor;
 
             Console.WriteLine("Arabanın renk : " + this._renk1 + "\nArabanın modeli " + this._motor);
