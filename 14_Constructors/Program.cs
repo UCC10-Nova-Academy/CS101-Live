@@ -38,9 +38,11 @@
         string _adi;
         string _modelyili;
         int _renk;
+        string _renk1;
         string _motor;
 
         // araba sınıfından bir ornek/nesne yaratılmak istendiğinde ilk once burası devreye gırecek.
+        // Default Constructor
         public Araba()
         {
             // ilk nesne yaratımında buraya duşmesşnş istiyorum.
@@ -48,6 +50,7 @@
         }
 
         // Parametrik olarak farklı yapılardaki constructorlar
+        // Parametized Const.
         public Araba(string adi) // parametrik bir constr.
         {
             this._adi = adi; // kendi üzerimdeki değişgene parametreden gelen deüeri yüklüyorum...ve bişseler
@@ -71,6 +74,14 @@
             this._motor=motor;
 
             Console.WriteLine("Arabanın renk : " + this._renk + "\nArabanın modeli " + this._motor);
+        }
+
+        public Araba(string motor,int renk)
+        {
+            this._renk1 = renk;
+            this._motor = motor;
+
+            Console.WriteLine("Arabanın renk : " + this._renk1 + "\nArabanın modeli " + this._motor);
         }
 
     }
