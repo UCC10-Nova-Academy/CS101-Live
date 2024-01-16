@@ -25,8 +25,6 @@
         Console.WriteLine("Dortgenın alanı : " + dortgen.AlanHesapla() + "\n\n");
 
 
-
-
         Console.ReadKey();
     }
 
